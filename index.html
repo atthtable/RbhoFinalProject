@@ -17,7 +17,7 @@
     <ul>
       <li>About</li>
       <li>Services</li>
-      <li>Contact</li>
+      <li>Sign Up</li>
     </ul>
   </div>
   <div class="img">
@@ -27,7 +27,36 @@
     <div id="pop-up">
             <div class="x-out">X</div>
             <h2>Sign up for my newsletter.</h2>
-            <button class="su-btn">Sign Up!</button>
+            <button class="su-btn">Sign Up</button>
+    </div>
+  </div>
+  <div id="sign-up-block">
+    <div id="sign-up-form">
+      <div id="x-me-out">X</div>
+      <form>
+        <p>Name:
+          <input type='text' name='name' maxlength='30' required>
+        </p>
+        <p>Email:
+          <input type='email' name='email' maxlength='30' required>
+        </p>
+        <p>Organization Needs:<br>
+          <input type="checkbox" value="declutter" checked>Declutter
+          <input type="checkbox" value="storage">Storage
+        </p>
+        <p>Other Service Needs:<br>
+          <input type="checkbox" value="cleaning" checked>Cleaning
+          <input type="checkbox" value="decorating">Decorating
+        </p>
+        <input type='submit' value='Sign Up' class="su-btn" id="realSubmit">
+      </form>
+    </div>
+  </div>
+  <div id="thank-you-block">
+    <div id="thank-you-box">
+      <div id="x-out-please">X</div>
+      <h2>Thank You!</h2>
+      <button id="getOrganized">Get Organized</button>
     </div>
   </div>
   <script src="script.js"></script>

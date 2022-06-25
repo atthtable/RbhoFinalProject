@@ -27,7 +27,6 @@ ul{
 li{
   margin-right: 10px;
   font-size: 23px;
-  cursor: pointer;
 }
 h1{
   margin-left: 25px;
@@ -50,11 +49,11 @@ img{
     z-index:1;
 }
 #pop-up{
-    max-width: 250px;
+    max-width: 300px;
     padding: 25px;
     text-align: center;
     position: relative;
-    margin: 125px auto;
+    margin: 300px auto;
     background-color: #678C2E;
     color: #D9CDBF;
     font-family: arial;
@@ -70,6 +69,72 @@ img{
 }
 .su-btn{
     display: block;
+    margin: 20px auto;
+    background-color: #BF7534;
+    color:   #401D16;
+    border: none;
+    padding: 8px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#sign-up-block {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  display: none;
+  z-index:1;
+}
+#sign-up-form {
+    max-width: 300px;
+    padding: 25px;
+    text-align: center;
+    position: relative;
+    margin: 300px auto;
+    background-color: #678C2E;
+    color: #D9CDBF;
+    font-family: arial;
+    border-radius: 5px;
+    z-index:2;
+}
+#x-me-out{
+    position: absolute;
+    top: 8px;
+    right: 10px;
+    cursor: pointer;
+    color: #401D16;
+}
+#thank-you-block {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  display: none;
+  z-index:1;
+}
+#thank-you-box {
+  max-width: 300px;
+    padding: 25px;
+    text-align: center;
+    position: relative;
+    margin: 300px auto;
+    background-color: #678C2E;
+    color: #D9CDBF;
+    font-family: arial;
+    border-radius: 5px;
+    z-index:2;
+}
+#x-out-please {
+  position: absolute;
+    top: 8px;
+    right: 10px;
+    cursor: pointer;
+    color: #401D16;
+}
+#getOrganized {
+  display: block;
     margin: 20px auto;
     background-color: #BF7534;
     color:   #401D16;
