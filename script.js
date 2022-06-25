@@ -37,5 +37,6 @@ xOutPlease.addEventListener('click', fresh)
 getOrganized.addEventListener('click', fresh)
 function fresh() {
   tyBlock.style.display='none'
+  wrapper.style.display='none'
 }
 
